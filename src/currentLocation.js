@@ -175,7 +175,7 @@ class Weather extends React.Component {
               <div className="dmy">
                 <div id="txt"></div>
                 <div className="current-time">
-                  <Clock format="HH:mm:ss" interval={1000} ticking={true} />
+                  <Clock format="hh:mm:ss A" interval={1000} ticking={true} />
                 </div>
                 <div className="current-date">{dateBuilder(new Date())}</div>
               </div>
